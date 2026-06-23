@@ -276,7 +276,7 @@ print(f"F1-Score: {f1_score(y_test, predictions):.2%}")
 ```
 
 ---
-## 📈 Expected Results
+## Expected Results
 
 | Metric | Logistic Regression | Random Forest |
 |--------|-------------------|-----------------|
