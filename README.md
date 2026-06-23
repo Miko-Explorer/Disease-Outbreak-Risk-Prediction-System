@@ -3,7 +3,7 @@
 A machine learning-based predictive analysis system designed to forecast disease outbreak risks by analyzing epidemiological data across Philippine regions. This project implements both baseline and advanced machine learning models to predict high-risk disease locations.
 
 ---
-## 📋 Project Overview
+## Project Overview
 
 This project predicts whether disease cases will increase in the next week for specific regions and diseases. It analyzes historical disease data including:
 - **Region** - Geographic location (NCR, IV-A, IV-B, VI, etc.)
@@ -16,7 +16,7 @@ This project predicts whether disease cases will increase in the next week for s
 The system aims to support public health officials in resource allocation and outbreak prevention.
 
 ---
-## 🎯 Key Features
+## Key Features
 
 ### Target Prediction
 - **Binary Classification**: HIGH RISK (1) or LOW RISK (0)
@@ -30,7 +30,7 @@ The system aims to support public health officials in resource allocation and ou
 - **Imbalanced Dataset**: Requires balanced class weights in models
 
 ---
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 ### 1. **Logistic Regression Model** (Baseline)
 A simple binary classification model that serves as the baseline for comparison.
@@ -92,7 +92,7 @@ An ensemble learning method using multiple decision trees for improved accuracy.
 - Better performance on imbalanced datasets
 
 ---
-## 📊 Model Evaluation Metrics
+## Model Evaluation Metrics
 
 ### Accuracy
 - **Formula**: (Correct Predictions) / (Total Predictions)
@@ -119,7 +119,7 @@ An ensemble learning method using multiple decision trees for improved accuracy.
 - **Syntax**: `f1 = f1_score(y_true, y_pred)`
 
 ---
-## 📁 Project Structure
+## Project Structure
 
 ```
 Predictive-Analysis-Project/
@@ -132,7 +132,7 @@ Predictive-Analysis-Project/
 ```
 
 ---
-## 🔧 Technologies & Libraries
+## Technologies & Libraries
 
 ```python
 # Data Processing
@@ -154,7 +154,7 @@ Google Colab          # Cloud execution
 ```
 
 ---
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.7+
@@ -182,7 +182,7 @@ jupyter notebook "Machine Learning Model.ipynb"
 Or use **Google Colab** for cloud-based execution (recommended for large datasets).
 
 ---
-## 📖 How to Use
+## How to Use
 
 ### Step 1: Load and Preview Data
 ```python
@@ -288,7 +288,7 @@ print(f"F1-Score: {f1_score(y_test, predictions):.2%}")
 *Note: Actual results depend on data split and random state*
 
 ---
-## 💡 Key Insights
+## Key Insights
 
 1. **Class Imbalance**: Dataset is imbalanced (31% HIGH, 69% LOW)
    - Solution: Use `class_weight='balanced'` in Logistic Regression
@@ -304,7 +304,7 @@ print(f"F1-Score: {f1_score(y_test, predictions):.2%}")
 4. **Geographic Variation**: Region and Barangay show location-specific risks
 
 ---
-## 🔬 Model Justification
+## Model Justification
 
 ### Why Logistic Regression?
 - ✅ Simple baseline for comparison
@@ -322,7 +322,7 @@ print(f"F1-Score: {f1_score(y_test, predictions):.2%}")
 - ❌ Less interpretable (black box)
 
 ---
-## 📊 Dataset Information
+## Dataset Information
 
 **Source**: Philippine Disease Outbreak Data
 **Time Period**: Multiple morbidity weeks
@@ -339,7 +339,7 @@ print(f"F1-Score: {f1_score(y_test, predictions):.2%}")
 5. Stratified train-test split (70-30)
 
 ---
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! To improve this project:
 
@@ -358,7 +358,7 @@ Contributions are welcome! To improve this project:
 - Add SHAP explainability analysis
 
 ---
-## 📝 Model Parameters Reference
+## Model Parameters Reference
 
 ### Logistic Regression Parameters
 | Parameter | Default | Recommended | Effect |
@@ -381,7 +381,7 @@ Contributions are welcome! To improve this project:
 | `random_state` | None | 42 | For reproducibility |
 
 ---
-## 🧮 Data Distribution
+## Data Distribution
 
 **Regional Distribution:**
 - NCR (National Capital Region)
@@ -401,12 +401,12 @@ Contributions are welcome! To improve this project:
 - Morbidity Weeks 1-52 (full calendar year cycle)
 
 ---
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
 ---
-## 👨‍💻 Author & Contributors
+## Author & Contributors
 ### Contributors
 - Benedict Caliba - UST | BS Data Science and Analytics
 - Thom Daniel Yutuc - UST | BS Data Science and Analytics
@@ -415,7 +415,7 @@ This project is open source and available under the MIT License.
 - [GitHub Profile](https://github.com/Miko-Explorer)
 
 ---
-## 📞 Support & Questions
+## Support & Questions
 
 For questions or issues:
 1. Check the **Project Manuscript.pdf** for detailed documentation
@@ -424,7 +424,7 @@ For questions or issues:
 4. Contact the project maintainer
 
 ---
-## 🎓 Learning Resources
+## Learning Resources
 
 - [Scikit-learn Documentation](https://scikit-learn.org/)
 - [Logistic Regression Explained](https://en.wikipedia.org/wiki/Logistic_regression)
